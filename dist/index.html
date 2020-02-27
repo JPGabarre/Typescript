@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="bundle.js"></script>
+    <title>BITCOINS</title>
+</head>
+<style>
+    .container{
+        background:cornflowerblue;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    .content{
+        background-color: yellow;
+        padding: 10px;
+        margin: 15px;
+        height: 200px;
+        width: 400px;
+        /* IMPORTANTE */
+        display: inline-block;
+        border-radius: 4%;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="content" id="ex1">
+            <h1>Tipus de moneda:</h1>
+            <p><select id="tipusMoneda"></select></p>
+            <p id="firstLine"><b id="line"></b><span id="firstValue"></span><a id="firstCoin"></a></p>
+            <p><b id="line2"></b><span id="value"></span><a id="coin"></a></p>
+            <p><input type="submit" id="submit" name="sumbit" value="Canviar"></p>
+        </div>
+        <div class="content" id="ex2">
+            <h1>Conversió:</h1>
+            <p>Introdueix dins el recuadre la quantitat amb la que es vol fer la conversio</p>
+            <br>
+            <b id="coinName"></b>
+            <input id="currentCoin" type="number" value="0" style="margin-left: 5px; width: 70px; text-align: center;">
+            <label> = <span id="result">0</span> Bitcoins</label>
+        </div>
+    </div>
+</body>
+</html>

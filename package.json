@@ -1,0 +1,26 @@
+{
+  "name": "a4typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jpgabarre",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "tsify": "^4.0.1",
+    "typescript": "^3.8.2",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.33",
+    "@types/request-promise-native": "^1.0.17",
+    "jquery": "^3.4.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  }
+}
