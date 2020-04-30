@@ -19,7 +19,7 @@
   "dependencies": {
     "@types/jquery": "^3.3.33",
     "@types/request-promise-native": "^1.0.17",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8"
   }
